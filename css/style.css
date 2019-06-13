@@ -1,12 +1,4 @@
-/*
-  Theme Name: Imperial
-  Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-template/
-  Author: BootstrapMade
-  Author URL: https://bootstrapmade.com
-*/
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+
 body {
   background: #fff;
   color: #210626;
@@ -163,26 +155,26 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-e-mail {
   background: none;
-  border: 3px solid #210626;
+  border: 3px solid #ff4000;
   color: #ff4000;
 }
 
 #hero .btn-e-mail:hover {
-  background: #ff4000;
+  background: #210626;
   border: 3px solid #ff4000;
-  color: #210626;
+  color: #ff4000;
 }
 
 #hero .btn-download {
   background: none;
-  border: 3px solid #210626;
+  border: 3px solid #ff4000;
   color: #ff4000;
 }
 
 #hero .btn-download:hover {
-background: #ff4000;
+  background: #210626;
   border: 3px solid #ff4000;
-  color: #210626;
+  color: #ff4000;
  
 }
 
@@ -191,7 +183,7 @@ background: #ff4000;
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #111;
+  background: none;
   padding: 20px 0;
   height: 90px;
 }
@@ -466,14 +458,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Sections Common
 --------------------------------*/
 .section-title {
-  font-size: 32px;
-  color: #111;
+  font-size: 31px;
+  color: #ff4000;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
 }
 
 .section-description {
+  color: #ff4000;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -481,7 +474,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-title-divider {
   width: 50px;
   height: 3px;
-  background: #03C4EB;
+  background: #ff4000;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -491,17 +484,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: #f7f7f7;
+  background: #210626;
   padding: 80px 0;
 }
 
 #contact .info {
-  color: #333333;
+  color: #fff;
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #03C4EB;
+  color: #fff;
   float: left;
 }
 
@@ -565,7 +558,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer {
   background: #210626;
   padding: 30px 0;
-  color: #fff;
+  color: #ff4000
 }
 
 #footer .copyright {
